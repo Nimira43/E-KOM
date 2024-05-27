@@ -24,7 +24,7 @@ const Register = () => {
                         <input className='w-4 h-4 text-[#0000ff]overflow-hidden bg-[#ccc] rounded border-[#ccc] focus:ring-[#0000ff]' type='checkbox' name='checkbox' id='checkbox' />
                         <label htmlFor="checkbox">I agree to terms and conditions</label>
                     </div>
-                    <button className='bg-[#eee] text-[#111] w-full rounded-md px-7 py-2 hover:bg-[#ccc]'>Sign Up</button>
+                    <button className='bg-[#eee] text-[#111] w-full rounded-md px-7 py-2 hover:bg-[#ccc] mb-3'>Sign Up</button>
                 </form>
             </div>
         </div>
