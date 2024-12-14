@@ -6,9 +6,9 @@ class PDF(FPDF):
     # (<image>,<x co-ord>, <y co-ord>, <width>)
     self.set_font('helvetica', 'B', 16)
     self.cell(80)
-    self.cell(40, 10, 'NimiraTech')
+    self.cell(40, 10, 'NimiraTech',  border=1, align='C')
 
 pdf = PDF()
 
 pdf.add_page()
-pdf.output('test2.pdf')
+pdf.output('test3.pdf')
