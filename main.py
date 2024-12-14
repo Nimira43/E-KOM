@@ -1,5 +1,10 @@
 from fpdf import FPDF
 
+class PDF(FPDF):
+  def header(self):
+    self.image('billy.png', 10, 8, 22)
+    # (<image>,<x co-ord>, <y co-ord>, <width>)
+
 pdf = FPDF()
 
 pdf.add_page()
